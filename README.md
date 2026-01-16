@@ -45,7 +45,6 @@ This project is a **NoSQL-based** and **Cloud-architected Web GIS (Geographic In
   - [Requirements](#requirements)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
-  - [Environment Variables (.env)](#environment-variables-env)
 - [Cloud Deployment (AWS)](#-cloud-deployment-aws)
 - [API Documentation](#-api-documentation)
 - [Project Structure](#-project-structure)
