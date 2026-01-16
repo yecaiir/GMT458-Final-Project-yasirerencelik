@@ -504,49 +504,6 @@ npm run build
 
 Built files are created in `dist/` folder.
 
-### Environment Variables (.env)
-
-#### Backend `.env` File
-
-Create `backend/.env` file and add the following variables:
-
-```env
-# Server Configuration
-NODE_ENV=development
-PORT=5000
-
-# MongoDB Connection
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dps?retryWrites=true&w=majority
-
-# JWT Secret
-JWT_SECRET=your_super_secret_jwt_key_here_min_32_chars
-
-# Frontend URL (for CORS)
-FRONTEND_URL=http://localhost:5173,https://aerodps.me
-
-# Email Configuration (Gmail)
-EMAIL_SERVICE=Gmail
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password-here
-
-# Email Configuration (Custom SMTP - Optional)
-# EMAIL_HOST=smtp.example.com
-# EMAIL_PORT=587
-# EMAIL_SECURE=false
-```
-
-**Important Notes:**
-- `JWT_SECRET`: Should be a strong random string at least 32 characters long
-- `EMAIL_PASS`: If using Gmail, you must use **App Password** for Gmail accounts with 2FA enabled
-- `MONGODB_URI`: Your MongoDB Atlas connection string
-
-#### Frontend `.env` File (Optional)
-
-Create `frontend/.env` file:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
 
 ---
 
