@@ -2,6 +2,20 @@
 
 > **Live Demo:** [https://aerodps.me](https://aerodps.me) (https://13.49.238.216/)
 
+## Test Accounts
+
+The application includes pre-configured test accounts for different permission levels (Operator, Controller, Admin). Use these credentials to test all system functionalities.
+
+### Test Credentials
+
+| Role | Email | Password | Description |
+|------|-------|----------|-------------|
+| **Operator** | `operator@example.com` | `operator123` | Standard user who can request flight permissions |
+| **Controller** | `controller@example.com` | `controller123` | Authorized user who reviews and approves flight requests |
+| **Admin** | `admin@example.com` | `admin123` | Administrator defines NOTAM Zones and user management  |
+
+---
+
 ## 📚 API Documentation
 
 API documentation is provided with Swagger UI.
